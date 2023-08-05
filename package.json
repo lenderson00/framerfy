@@ -1,0 +1,26 @@
+{
+  "name": "framerfy",
+  "version": "0.0.1",
+  "description": "A simple lib to help mask framer components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenderson00/framerfy.git"
+  },
+  "author": "Lenderson Macedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenderson00/framerfy/issues"
+  },
+  "homepage": "https://github.com/lenderson00/framerfy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@types/babel__core": "^7.20.1",
+    "@types/node": "^20.4.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
