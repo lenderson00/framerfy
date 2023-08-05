@@ -1,1 +1,0 @@
-export const generateRandomName = () => `func_${Math.random().toString(36).substring(2, 7)}`;
