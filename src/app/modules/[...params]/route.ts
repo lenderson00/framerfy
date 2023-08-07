@@ -17,7 +17,7 @@ export async function GET(req: Request, context: Record<string, string>) {
     const code = await getFramerComponent(url);
     return new Response(code, {
       headers: {
-        "Content-Type": "text/javascript; charset=UTF-8",
+        "Content-Type": "application/javascript; charset=utf-8",
       },
     });
   } catch (e) {
