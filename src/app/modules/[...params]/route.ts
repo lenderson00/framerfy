@@ -18,6 +18,7 @@ export async function GET(req: Request, context: Record<string, string>) {
     return new Response(code, {
       headers: {
         "Content-Type": "application/javascript; charset=utf-8",
+        'Access-Control-Allow-Origin': '*'
       },
     });
   } catch (e) {
